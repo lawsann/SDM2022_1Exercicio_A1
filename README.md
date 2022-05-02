@@ -29,7 +29,7 @@ O servidor deve responder as seguintes rotas (paths), métodos e parâmetros:
     c. GET 	/filmes/{id}
     d. POST /musica/{id}/{autor}/{genero}
 
-*Todas seguintes condições devem ser atendidas:*
+**Todas seguintes condições devem ser atendidas:**
 
 - As requisições devem retornar um status code 200 e uma mensagem 'ROTA `path rota`' foi acessada”
 
