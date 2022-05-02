@@ -36,3 +36,5 @@ O servidor deve responder as seguintes rotas (paths), métodos e parâmetros:
 - Checar as requisições que possuem parâmetros. Se eles não forem definidos retorne um status code 400 e a mensagem `parametros inválidos`
 
 - Para a requisição POST retorne um status code 200 e uma mensagem JSON com os dados enviados 
+
+`DICA: clone o repositório e faça os testes direto rodando o servidor`
