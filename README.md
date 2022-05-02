@@ -31,9 +31,9 @@ O servidor deve responder as seguintes rotas (paths), métodos e parâmetros:
 
 **Todas seguintes condições devem ser atendidas:**
 
-- As requisições devem retornar um status code 200 e uma mensagem `ROTA <path rota> foi acessada`
+- As requisições devem retornar um status code 200 e uma mensagem **`ROTA <path rota> foi acessada`**
 
-- Checar as requisições que possuem parâmetros. Se eles não forem definidos retorne um status code 400 e a mensagem `parametros inválidos`
+- Checar as requisições que possuem parâmetros. Se eles não forem definidos retorne um status code 400 e a mensagem **`parametros inválidos`** 
 
 - Para a requisição POST retorne um status code 200 e uma mensagem JSON com os dados enviados 
 
