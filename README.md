@@ -20,14 +20,19 @@ Dado o arquivo server.js (exemplo neste repositório):
     })
 ~~~
 
-
 Altere-o para que ele atenda as seguintes especificações:
-    a) (6 -pontos) Que o servidor responda as seguintes rotas (paths), métodos e parâmetros:
-        a. GET 	/
-        b. GET 	/users
-        c. GET 	/users/{id}
-        d. POST 	/users/{id}/{nome}/{email}
-    b) (6 pontos) Que as seguintes condições sejam atendidas:
-        a. Todas as requisições devem retornar um status code 200 e uma mensagem “API acessada com sucesso”
-        b. Para as requisições que possuem parâmetros, caso os parâmetros não estejam presentes, devem retornar um status code 400 e a mensagem “Requisição não reconhecida”
-        c. Para a requisição com todos os parâmetros presentes “POST /users/{id}/{nome}/{email}” deve-se retornar um status code 200 e uma mensagem em formato JSON com os dados enviados (id, nome e-mail}
+
+O servidor deve responder as seguintes rotas (paths), métodos e parâmetros:
+
+    a. GET 	/
+    b. GET 	/produtos
+    c. GET 	/filmes/{id}
+    d. POST /musica/{id}/{autor}/{genero}
+
+*Todas seguintes condições devem ser atendidas:*
+
+- As requisições devem retornar um status code 200 e uma mensagem 'ROTA `path rota`' foi acessada”
+
+- Checar as requisições que possuem parâmetros. Se eles não forem definidos retorne um status code 400 e a mensagem `parametros inválidos`
+
+- Para a requisição POST retorne um status code 200 e uma mensagem JSON com os dados enviados 
