@@ -37,4 +37,4 @@ O servidor deve responder as seguintes rotas (paths), métodos e parâmetros:
 
 - Para a requisição POST retorne um status code 200 e uma mensagem JSON com os dados enviados 
 
-`DICA: clone o repositório e faça os testes direto rodando o servidor`
+**`DICA: clone o repositório e faça os testes direto rodando o servidor`**
