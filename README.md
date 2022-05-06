@@ -1,4 +1,4 @@
-# atividade SDM 2022_1 Simulado A1
+# enunciado SDM 2022_1 A1
 
 Dado o arquivo server.js (exemplo neste repositório):
 
